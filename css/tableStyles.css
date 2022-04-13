@@ -1,0 +1,28 @@
+.main-text-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-text-container__left {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.main-text-container__left h1 {
+    width: 160px;
+    font-size: 2.8rem;
+    line-height: 3rem;
+}
+.main-text-container__left p {
+    margin-left: 50px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+.read-more-button__white {
+    max-width: 550px;
+    margin-top: 70px;
+}
+.footer-container-info__links {
+    display: grid;
+    grid-template-rows: repeat(1, 40px);
+    grid-template-columns: repeat(6, 66px);
+}

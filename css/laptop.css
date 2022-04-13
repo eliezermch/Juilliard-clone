@@ -1,0 +1,42 @@
+.nav {
+  position: absolute;
+  background-color: transparent;
+}
+.nav-left {
+  width: 16%;
+  background-color: #000000;
+}
+.nav-right {
+  width: 11%;
+  background-color: #000000;
+}
+.calendar-number {
+  display: none;
+}
+.main__section {
+  display: flex;
+}
+.main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-container {
+  padding-top: 55px;
+}
+.main-text-container__left {
+  padding-top: 20px;
+}
+.main-text-container__left p {
+  margin-left: 26px;
+}
+.main-info-container__title {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-info-card__container {
+  display: flex;
+}
+.span-container__main {
+  overflow: hidden;
+}
